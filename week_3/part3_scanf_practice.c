@@ -14,14 +14,14 @@ int main(void) {
     int counter = 0;
     while (counter < integer) {
         char character;
-        scanf(" %c", character);
+        scanf(" %c", &character);
         printf("You just scanned '%c\n", character);
         counter++;
     }
 
     // Demo of Scanf in a loop condition - Press ctrl+D to exit loop
     printf("Please enter an integer: ");
-    while (scanf("%d", integer) == 1) {
+    while (scanf("%d", &integer) == 1) {
         printf("You just scanned '%d\n", integer);
         printf("Please enter an integer: ");
     }
