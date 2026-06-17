@@ -9,7 +9,7 @@ int main(void) {
     
     // Demo of Scanf in a loop body to understand the scan buffer
     printf("Please enter an integer: ");
-    scanf("%d", integer);
+    scanf("%d", &integer);
     
     int counter = 0;
     while (counter < integer) {
